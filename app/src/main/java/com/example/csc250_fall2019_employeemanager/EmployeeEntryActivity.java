@@ -9,9 +9,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 public class EmployeeEntryActivity extends AppCompatActivity
 {
     private EditText fnameET, lnameET, height_feetET, height_inchesET, weightET, ageET;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -42,6 +45,9 @@ public class EmployeeEntryActivity extends AppCompatActivity
         //Intent returnBag = new Intent();
         //returnBag.putExtra("employee_name", this.theEmployee.toString());
         //this.setResult(Activity.RESULT_OK, returnBag); //notifies screen 1 that a result is included.
+        Core.theEmployees.add(Core.theEmployee);
+
+
         this.finish();
 
         /*

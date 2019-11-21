@@ -16,6 +16,7 @@ public class Employee
 
     public String toString()
     {
+
         return this.fname + " " + this.lname;
     }
 
@@ -29,51 +30,63 @@ public class Employee
         this.weight = weight;
     }
 
-    public void setFname(String fname) {
+    public void setFname(String fname)
+    {
         this.fname = fname;
     }
 
-    public void setLname(String lname) {
+    public void setLname(String lname)
+    {
         this.lname = lname;
     }
 
-    public void setHeight_feet(int height_feet) {
+    public void setHeight_feet(int height_feet)
+    {
         this.height_feet = height_feet;
     }
 
-    public void setHeight_inches(int height_inches) {
+    public void setHeight_inches(int height_inches)
+    {
         this.height_inches = height_inches;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age)
+    {
         this.age = age;
     }
 
-    public void setWeight(double weight) {
+    public void setWeight(double weight)
+    {
         this.weight = weight;
     }
 
-    public String getFname() {
+    public String getFname()
+    {
         return fname;
     }
 
-    public String getLname() {
+    public String getLname()
+    {
         return lname;
     }
 
-    public int getHeight_feet() {
+    public int getHeight_feet()
+    {
         return height_feet;
     }
 
-    public int getHeight_inches() {
+    public int getHeight_inches()
+    {
         return height_inches;
     }
 
-    public int getAge() {
+    public int getAge()
+    {
         return age;
     }
 
-    public double getWeight() {
+    public double getWeight()
+    {
         return weight;
     }
 }
